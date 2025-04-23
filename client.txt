@@ -1,0 +1,1 @@
+python client_code_raspberry_pi.py --cid=1 --server_address="192.168.x.x:8080" --resolution="320x240" --frames=5 --headless
