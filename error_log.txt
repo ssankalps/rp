@@ -1,0 +1,33 @@
+Client sampled for fit()
+Model parameters updated successfully
+Capturing 3 frames for training...
+Connecting to RTSP stream: rtsp://admin:JUITMU@192.168.0.116:554/channel1
+Successfully connected to stream.
+AUTO MODE: Will capture 3 frames
+Auto-capturing frame 1/3
+Auto-capturing frame 2/3
+Auto-capturing frame 3/3
+Captured 3 frames
+Generating pseudo-labels for training
+Generating pseudo-labels for captured frames
+Processing frame 1/3
+/home/raspi/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:906: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(autocast):
+Processing frame 2/3
+/home/raspi/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:906: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(autocast):
+Processing frame 3/3
+/home/raspi/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:906: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(autocast):
+Training model for 1 epochs
+Starting local training for 1 epochs
+Starting YOLOv5 training...
+Error during YOLOv5 training: 'AutoShape' object has no attribute 'yaml'
+Falling back to simplified training method
+Using simplified direct training method
+Epoch 1/1
+  Training on frame 1/3
+/home/raspi/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:879: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(autocast):
+Error during local training: Sizes of tensors must match except in dimension 1. Expected size 16 but got size 15 for tensor number 1 in the list.
+Returning original parameters
